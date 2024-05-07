@@ -3,7 +3,7 @@
 $host = 'localhost';
 $dbname = 'desafio_jerimum';
 $user = 'root';
-$password = 'shaman';
+$password = 'root';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
